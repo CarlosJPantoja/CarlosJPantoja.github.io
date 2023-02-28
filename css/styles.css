@@ -142,6 +142,7 @@ html {
 }
 
 .masthead {
+  background-color: #1abc9c;
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
@@ -184,7 +185,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #1abc9c;
 }
 #skills .skills-item .skills-item-caption:hover {
   opacity: 1;
@@ -228,10 +229,26 @@ html {
 
 .progress-bar {
   height: 8px;
-  background: #04AA6D;
+  background: #1abc9c;
   width: 0%;
 }
 
 .card {
   border: 0;
+}
+
+#education {
+  background-color: #1abc9c;
+}
+
+.btn {
+  background-color: #1abc9c;
+}
+
+.link {
+  color: #1abc9c;
+}
+
+.btn-close {
+  color: #1abc9c;
 }
